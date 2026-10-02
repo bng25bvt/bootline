@@ -20,15 +20,25 @@
 
     <div class="navbar navbar-expand-sm d-flex col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
 
-    
         <div class="sidebarRow d-flex col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="offcanvas" aria-controls="offcanvas">
+        <button class="btn btn-primary" type="button" data-bs-toggle="" data-bs-target="offcanvas" aria-controls="offcanvas">
             =
         </button>
 
-        <div class="offcanvas-body d-flex col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        
+    
+        <div class="offcanvas-sm col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
+        <div class="offcanvas-header d-flex ms-xl-5 ms-lg-5 ms-md-4">
+            <h5 class="offcanvas-title" id="offcanvas">Bmail</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         
+        </div>  
+        
+
+<div class="offcanvas-body">
         <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action active" aria-current="true" text-bg-dark p-2>
+        
+            <a href="#" class="list-group-item list-group-item-action text-bg-dark p-2" aria-current="true" >
                 New Email
             </a>
             <a href="#" class="list-group-item list-group-item-action">Inbox</a>
@@ -41,14 +51,25 @@
         </div>
 
 
-      
+      </div>
+
+      <div class="navbar-search d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center col-3 col-sm-3 col-md-4 col-lg-5 col-xl-5">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-labelled="Search"/>
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+
+        <div class="navbar-user d-flex justify-content-end justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+            <img src="header.png" alt="user" class="img-fluid justify-content-end justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end"></img>
+
+        </div>
+
+
+
+
+      </div>
                 
-
-
-
-
-
-
+    </nav>
 
             </div>
 </div>
